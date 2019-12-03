@@ -5,10 +5,14 @@ import { UserCreateComponent } from './user-create/user-create.component';
 import { UserEditComponent } from './user-edit/user-edit.component';
 import { UserManagementComponent } from './user-management/user-management.component';
 import { UserViewComponent } from './user-view/user-view.component';
-user-login/user-login.component';
+import { UserLoginComponent } from './user-login/user-login.component';
 import { from } from 'rxjs';
 
 const routes: Routes = [
+   // {
+  //   path: 'login',
+  //   component: UserLoginComponent,
+  // },
   {
     path: '',
     component: UserManagementComponent,
